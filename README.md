@@ -6,7 +6,7 @@ A Java Swing-based GUI application designed to assist General Practitioners (GPs
 
 ## Features
 
-- **Secure Login System - for GPs with credential validation
+- **Secure Login System**  for GPs with credential validation
 - **Enter & Edit Visit Details** including prescriptions
 - **View Past Visit Information** using booking IDs
 - **Book Appointment Slots** by month and year
@@ -15,12 +15,12 @@ A Java Swing-based GUI application designed to assist General Practitioners (GPs
 
 ---
 
-## 🧪 Testing
+## Testing
 
 This project includes a comprehensive suite of **JUnit test classes** to ensure core functionality and security across multiple modules:
 
-- `loginFrameTest.java`: Validates login credential scenarios
-- `ViewVisitDetailsFrameTest.java`: Tests booking ID inputs
+- `loginFrameTest.java`: Validates login credential scenarios (invalid charcters, wrong set of credentials and e.t.c,)
+- `ViewVisitDetailsFrameTest.java`: Tests booking ID inputs 
 - `EditVisitDetailsFrameTest.java`: Tests update logic and form validation
 - `EnterVisitDetailsAndPrescriptionsTest.java`: Confirms dialog and confirmation functionality
 - `bookingFrameTest.java`: Tests search logic by date
@@ -28,11 +28,11 @@ This project includes a comprehensive suite of **JUnit test classes** to ensure 
 
 ---
 
-## 👨‍💻 My Role
+## My Role
 
 As the primary test engineer and contributor:
 
-- ✅ I developed all **JUnit test classes** to ensure form validation, security, and database interactions functioned correctly.
+- ✅ I developed most of the **JUnit test classes** to ensure form validation, security, and database interactions functioned correctly.
 - ✅ I built two full GUI modules from scratch:
   - `ViewVisitDetailsFrame.java`
   - `EditVisitDetailsFrame.java`
@@ -41,7 +41,7 @@ As the primary test engineer and contributor:
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠Tech Stack
 
 - **Language**: Java (JDK 8+)
 - **GUI**: Swing
