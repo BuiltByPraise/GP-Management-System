@@ -48,3 +48,12 @@ As the primary test engineer and contributor:
 - **Database**: MySQL (via `DBManager`)
 - **Testing**: JUnit 4
 - **Version Control**: Git & GitHub
+
+## Project Structure 
+gp-management-system/
+├── src/
+│ ├── gui/ # GUI components (Swing Frames)
+│ └── db/ # Database manager class
+├── test/ # JUnit test classes
+├── README.md # Project overview
+├── .gitignore # Git exclusion rules
